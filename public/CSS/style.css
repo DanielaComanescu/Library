@@ -1,0 +1,58 @@
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: grey;
+    height: 10%;
+    display: flex;
+}
+
+nav {
+    width: 100%;
+}
+
+nav > ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+nav a, nav li>span {
+    text-decoration: none;
+    color: purple;
+    border: 1px solid black;
+    padding: 4px 7px;
+    background-color: lime;
+    border-radius: 4px;
+    width: 100px;
+    text-align: center;
+}
+
+nav a:hover {
+    color: black;
+    background-color: grey;
+}
+
+nav li {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+h1, h3 {
+    color: green; 
+    
+}
+
+img {
+    height: 250px;
+}
+
+
+
